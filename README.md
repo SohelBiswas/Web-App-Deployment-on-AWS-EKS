@@ -49,3 +49,14 @@ An AWS account with appropriate IAM permissions
 ```
    aws eks update-kubeconfig --region ap-south-1 --name sohel-cluster
 ```
+
+**2. Deploy the application using Kubernetes manifests:**
+```
+kubectl apply -f k8s/
+```
+
+**3. Verify the deployment:**
+```
+kubectl get pods
+kubectl get svc
+```
