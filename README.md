@@ -52,7 +52,7 @@ An AWS account with appropriate IAM permissions
 
 **2. Deploy the application using Kubernetes manifests:**
 ```
-kubectl apply -f k8s/
+kubectl apply -f Kubernetes
 ```
 
 **3. Verify the deployment:**
