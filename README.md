@@ -37,7 +37,7 @@ An AWS account with appropriate IAM permissions
 ```
    terraform init
 ```
-**3. Plan and apply the Terraform scripts:**
+**3. Validate, plan and apply the Terraform scripts:**
 ```
    terraform validate
    terraform plan
