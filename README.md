@@ -39,6 +39,8 @@ An AWS account with appropriate IAM permissions
 ```
 **3. Plan and apply the Terraform scripts:**
 ```
+   terraform validate
+   terraform plan
    terraform apply -auto-approve
 ```
 
